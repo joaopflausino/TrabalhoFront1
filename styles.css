@@ -1,4 +1,4 @@
-/* Reset e Base */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header e Navegação */
 header {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     position: fixed;
@@ -88,7 +87,6 @@ header {
     border-radius: 2px;
 }
 
-/* Main Content */
 main {
     margin-top: 80px;
 }
@@ -102,7 +100,6 @@ main {
     display: block;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     color: #e4e6ea;
@@ -173,7 +170,7 @@ main {
     transform: translateY(-3px);
 }
 
-/* Code Animation */
+
 .hero-image {
     position: relative;
     height: 300px;
@@ -221,7 +218,7 @@ main {
     100% { opacity: 1; }
 }
 
-/* Features Section */
+
 .features {
     padding: 4rem 0;
     background: #161b22;
@@ -273,7 +270,7 @@ main {
     line-height: 1.6;
 }
 
-/* Page Header */
+
 .page-header {
     text-align: center;
     padding: 3rem 0;
@@ -294,7 +291,7 @@ main {
     color: #b0bec5;
 }
 
-/* About Section */
+
 .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -334,7 +331,7 @@ main {
     font-weight: bold;
 }
 
-/* Contact Info */
+
 .contact-info h3 {
     font-size: 1.8rem;
     margin-bottom: 2rem;
@@ -386,7 +383,7 @@ main {
     transform: translateY(-2px);
 }
 
-/* Courses Grid */
+
 .courses-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -453,7 +450,7 @@ main {
     color: #ff6b6b;
 }
 
-/* Work Section */
+
 .work-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -528,7 +525,7 @@ main {
     transform: translateY(-2px);
 }
 
-/* Process Steps */
+
 .process-step {
     display: flex;
     gap: 1rem;
@@ -590,7 +587,7 @@ main {
     font-weight: bold;
 }
 
-/* Blog Grid */
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -658,7 +655,7 @@ main {
     text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
     background: #0d1117;
     color: #e4e6ea;
@@ -710,7 +707,7 @@ footer {
     color: #6e7681;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
